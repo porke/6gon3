@@ -1,0 +1,57 @@
+<settings>
+	<setting name="EnergyPerBlock" type="java.lang.Float" value="5.0f"/>
+	<setting name="ScorePerBlock" type="java.lang.Float" value="2.0f"/>
+	<setting name="ScorePerAdditionalBlocksFactor" type="java.lang.Float" value="1.2f"/>
+	<setting name="BombBlockSpawnChance" type="java.lang.Integer" value="3"/>
+	<setting name="ImmobileBlockSpawnChance" type="java.lang.Integer" value="1"/>
+	<setting name="GhostBlockSpawnChance" type="java.lang.Integer" value="3"/>
+	<setting name="StrongBlockSpawnChance" type="java.lang.Integer" value="3"/>
+	<setting name="FearDurationInTurns" type="java.lang.Integer" value="3"/>
+	<setting name="EnergyBoostFactor" type="java.lang.Float" value="2.0f"/>
+	<setting name="EnergyBoostDurationInSeconds" type="java.lang.Float" value="15.0f"/>
+	
+	<setting name="CasualModeDesc" type="java.lang.String" value="Connect three. You lose only when you can't make any valid moves."/>
+	<setting name="SurvivalModeDesc" type="java.lang.String" value="Try to reach the goal with finite number of moves."/>
+	<setting name="TimeAttackModeDesc" type="java.lang.String" value="Finish the stage before running out of time."/>
+	<setting name="HardcoreModeDesc" type="java.lang.String" value="Win as fast as you can with as few moves as possible."/>
+	<setting name="ClassicModeDesc" type="java.lang.String" value="Time is score. Finish the stage before running out of points."/>
+	
+	<settings name="CasualModeWinMsg" type="java.lang.String" value="Gain [win] points to win"/>
+	<settings name="TimeAttackModeWinMsg" type="java.lang.String" value="Gain [win] points to win"/>
+	<settings name="SurvivalModeWinMsg" type="java.lang.String" value="Gain [win] points to win"/>
+	<settings name="HardcoreModeWinMsg" type="java.lang.String" value="Gain [win] points to win"/>
+	<settings name="ClassicModeWinMsg" type="java.lang.String" value="Gain [win] points to win"/>
+	
+	<settings name="CasualModeLoseMsg" type="java.lang.String" value=""/>
+	<settings name="TimeAttackModeLoseMsg" type="java.lang.String" value="You lose when [lose] seconds expire"/>
+	<settings name="SurvivalModeLoseMsg" type="java.lang.String" value="You lose if you make more than [lose] moves"/>
+	<settings name="HardcoreModeLoseMsg" type="java.lang.String" value="You lose when [lose] seconds expire or you make more than [lose2] moves"/>
+	<settings name="ClassicModeLoseMsg" type="java.lang.String" value="The score count dwindles by [lose] points each second, when it reaches zero, all is lost."/>
+	
+	<settings name="CasualModeWinSpec" type="java.lang.Float" value="300"/>
+	<settings name="CasualModeLoseSpec" type="java.lang.Float" value="0"/>
+	<settings name="CasualModeWinProgress" type="java.lang.Float" value="200"/>
+	<settings name="CasualModeLoseProgress" type="java.lang.Float" value="0"/>
+	
+	<settings name="TimeAttackModeWinSpec" type="java.lang.Float" value="700"/>
+	<settings name="TimeAttackModeLoseSpec" type="java.lang.Float" value="100"/>
+	<settings name="TimeAttackModeWinProgress" type="java.lang.Float" value="200"/>
+	<settings name="TimeAttackModeLoseProgress" type="java.lang.Float" value="30"/>
+	
+	<settings name="SurvivalModeWinSpec" type="java.lang.Float" value="800"/>
+	<settings name="SurvivalModeLoseSpec" type="java.lang.Float" value="40"/>
+	<settings name="SurvivalModeWinProgress" type="java.lang.Float" value="200"/>
+	<settings name="SurvivalModeLoseProgress" type="java.lang.Float" value="13"/>
+	
+	<settings name="HardcoreModeWinSpec" type="java.lang.Float" value="700"/>
+	<settings name="HardcoreModeLoseSpec" type="java.lang.Float" value="40"/>
+	<settings name="HardcoreModeLoseSpec2" type="java.lang.Float" value="100"/>
+	<settings name="HardcoreModeWinProgress" type="java.lang.Float" value="200"/>
+	<settings name="HardcoreModeLoseProgress" type="java.lang.Float" value="15"/>
+	<settings name="HardcoreModeLoseProgress2" type="java.lang.Float" value="35"/>
+	
+	<settings name="ClassicModeWinSpec" type="java.lang.Float" value="700"/>
+	<settings name="ClassicModeLoseSpec" type="java.lang.Float" value="5"/>
+	<settings name="ClassicModeWinProgress" type="java.lang.Float" value="200"/>
+	<settings name="ClassicModeLoseProgress" type="java.lang.Float" value="2"/>
+</settings>

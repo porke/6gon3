@@ -1,0 +1,174 @@
+<campaign>
+	<mission id="1" name="First blocks" mode="Casual" winSpec="400" loseSpec="0" tileset="Neutral" colors="6">	
+		<briefing>Hello. So you are the one that wishes to beat me? Let`s see what you can do.</briefing>
+		<prerequisites/>
+		<unlocks block="" bonus="" mode="Classic" theme=""/>
+	</mission>
+	<mission id="2" name="Red" mode="Casual" winSpec="500" loseSpec="0" tileset="Industrial" colors="6" >	
+		<briefing>You did good, but can you win on RED?!</briefing>
+		<prerequisites>
+			<prerequisite id="1"/>
+		</prerequisites>
+		<unlocks block="" bonus="RemoteSwap" mode="" theme="Industrial"/>
+	</mission>
+	<mission id="3" name="Walk in a park" mode="Casual" winSpec="500" loseSpec="0" tileset="Nature" colors="6" >	
+		<briefing>I`ve changed the rules so it's more natural. Now it's a forest simulator.</briefing>
+		<prerequisites>
+			<prerequisite id="1"/>
+		</prerequisites>
+		<unlocks block="" bonus="RotateSwap" mode="" theme="Nature"/>
+	</mission>
+	<mission id="4" name="Underwater gems" mode="Casual" winSpec="500" loseSpec="0" tileset="Water" colors="6" >	
+		<briefing>Have you seen that movie about a shark that eats people? I hope memory of that movie won't make you too scared to get near the water.</briefing>
+		<prerequisites>
+			<prerequisite id="1"/>
+		</prerequisites>
+		<unlocks block="" bonus="ColourChange" mode="" theme="Water"/>
+	</mission>
+	<mission id="5" name="The minelayer" mode="Casual" winSpec="700" loseSpec="0" tileset="Industrial" colors="7" >	
+		<briefing>If you win that one, you'll get some explosives. Don't hurt yourself.</briefing>
+		<prerequisites>
+			<prerequisite id="2"/>
+			<prerequisite id="3"/>
+			<prerequisite id="4"/>
+		</prerequisites>
+		<unlocks block="" bonus="BombChange" mode="" theme=""/>
+	</mission>
+	<mission id="6" name="Tick tock" mode="TimeAttack" winSpec="700" loseSpec="70" tileset="Industrial" colors="7" >	
+		<briefing>Take your time while playing this one. You have plenty. No pressure. Don't hurry yourself.</briefing>
+		<prerequisites>
+			<prerequisite id="2"/>
+			<prerequisite id="3"/>
+			<prerequisite id="4"/>
+		</prerequisites>
+		<unlocks block="Bomb" bonus="" mode="" theme=""/>
+	</mission>
+	
+	<mission id="7" name="Careful" mode="Survival" winSpec="800" loseSpec="30" tileset="Nature" colors="7" >	
+		<briefing>Have you ever made a mistake? Don't do one now. I'm watching.</briefing>
+		<prerequisites>
+			<prerequisite id="2"/>
+			<prerequisite id="3"/>
+			<prerequisite id="4"/>
+		</prerequisites>
+		<unlocks block="" bonus="IncomeBoost" mode="" theme=""/>
+	</mission>
+	
+	<mission id="8" name="Survival camp" mode="Survival" winSpec="850" loseSpec="30" tileset="Nature" colors="7" >	
+		<briefing>You'll unlock a time eater if you win this one.</briefing>
+		<prerequisites>
+			<prerequisite id="2"/>
+			<prerequisite id="3"/>
+			<prerequisite id="4"/>
+		</prerequisites>
+		<unlocks block="" bonus="" mode="Survival" theme=""/>
+	</mission>
+	<mission id="9" name="Orbastic" mode="TimeAttack" winSpec="700" loseSpec="70" tileset="Water" colors="7" >	
+		<briefing>Are you afraid of orbs? I'm not, I'm a game, but if you are, you may wish not to play this one.</briefing>
+		<prerequisites>
+			<prerequisite id="2"/>
+			<prerequisite id="3"/>
+			<prerequisite id="4"/>
+		</prerequisites>
+		<unlocks block="Ghost" bonus="DeleteLine" mode="" theme=""/>
+	</mission>
+	<mission id="10" name="Chronoboost" mode="TimeAttack" winSpec="700" loseSpec="70" tileset="Water" colors="7" >	
+		<briefing>This time eater is a bit more literal.</briefing>
+		<prerequisites>
+			<prerequisite id="2"/>
+			<prerequisite id="3"/>
+			<prerequisite id="4"/>
+		</prerequisites>
+		<unlocks block="" bonus="" mode="TimeAttack" theme=""/>
+	</mission>
+	<mission id="11" name="The colour eraser" mode="TimeAttack" winSpec="1000" loseSpec="100" tileset="Industrial" colors="7" >	
+		<briefing>There is a prize. Don't abuse it once you get it.</briefing>
+		<prerequisites>
+			<prerequisite id="5"/>
+			<prerequisite id="6"/>
+		</prerequisites>
+		<unlocks block="" bonus="ClearColour" mode="" theme=""/>
+	</mission>
+	<mission id="12" name="Freeze!" mode="TimeAttack" winSpec="1200" loseSpec="125" tileset="Industrial" colors="7" >	
+		<briefing>I know you think I'm easy. I'll change your mind after that one though.</briefing>
+		<prerequisites>
+			<prerequisite id="5"/>
+			<prerequisite id="6"/>
+		</prerequisites>
+		<unlocks block="Immobile" bonus="" mode="" theme=""/>
+	</mission>
+	<mission id="13" name="Rush hour" mode="TimeAttack" winSpec="1300" loseSpec="145" tileset="Industrial" colors="7" >
+		<briefing>Tick, tack, tick, tack... I just recalled I need to buy some office supplies. Weird.</briefing>
+		<prerequisites>
+			<prerequisite id="5"/>
+			<prerequisite id="6"/>
+		</prerequisites>
+		<unlocks block="" bonus="" mode="" theme=""/>
+	</mission>
+	<mission id="14" name="Fear is an illusion" mode="Survival" winSpec="1000" loseSpec="35" tileset="Nature" colors="7" >	
+		<briefing>I would like to reward you, but you must earn the prize.</briefing>
+		<prerequisites>
+			<prerequisite id="7"/>
+			<prerequisite id="8"/>
+		</prerequisites>
+		<unlocks block="" bonus="Fear" mode="" theme=""/>
+	</mission>
+	
+	<mission id="15" name="A solid block" mode="Survival" winSpec="1000" loseSpec="35" tileset="Nature" colors="7" >	
+		<briefing>Have you ever had a problem with erasing three? Now you'll have a problem with erasing one!</briefing>
+		<prerequisites>
+			<prerequisite id="7"/>
+			<prerequisite id="8"/>
+		</prerequisites>
+		<unlocks block="Strong" bonus="" mode="" theme=""/>
+	</mission>
+	<mission id="16" name="Grey goo" mode="TimeAttack" winSpec="1300" loseSpec="145" tileset="Nature" colors="7" >	
+		<briefing>Grey goo is an indicator that there is a virus. It may also mean that you have some cleaning to do instead of beating me.</briefing>
+		<prerequisites>
+			<prerequisite id="7"/>
+			<prerequisite id="8"/>
+		</prerequisites>
+		<unlocks block="" bonus="" mode="" theme=""/>
+	</mission>
+	<mission id="17" name="Repainting reality" mode="TimeAttack" winSpec="1350" loseSpec="160" tileset="Water" colors="7" >	
+		<briefing>When was the last time you changed your wallpaper?</briefing>
+		<prerequisites>
+			<prerequisite id="9"/>
+			<prerequisite id="10"/>
+		</prerequisites>
+		<unlocks block="" bonus="Conversion" mode="" theme=""/>
+	</mission>
+	
+	<mission id="18" name="Marshmallow Man" mode="Survival" winSpec="1400" loseSpec="45" tileset="Water" colors="7" >	
+		<briefing>If you feed candy to your phone it will die or get sticky.</briefing>
+		<prerequisites>
+			<prerequisite id="9"/>
+			<prerequisite id="10"/>
+		</prerequisites>
+		<unlocks block="" bonus="" mode="" theme=""/>
+	</mission>
+	<mission id="19" name="Belmont jazz" mode="TimeAttack" winSpec="1350" loseSpec="160" tileset="Water" colors="7" >
+		<briefing>It's the last of the easy ones.</briefing>
+		<prerequisites>
+			<prerequisite id="9"/>
+			<prerequisite id="10"/>
+		</prerequisites>
+		<unlocks block="" bonus="" mode="" theme=""/>
+	</mission>
+	
+	<mission id="20" name="Hardcore" mode="Hardcore" winSpec="2000" loseSpec="85" loseSpec2="270" tileset="Neutral" colors="7" >	
+		<briefing>If win this one, you'll become the official game beater!</briefing>
+		<prerequisites>
+			<prerequisite id="11"/>
+			<prerequisite id="12"/>
+			<prerequisite id="13"/>
+			<prerequisite id="14"/>
+			<prerequisite id="15"/>
+			<prerequisite id="16"/>
+			<prerequisite id="17"/>
+			<prerequisite id="18"/>
+			<prerequisite id="19"/>
+		</prerequisites>
+		<unlocks block="" bonus="" mode="Hardcore" theme=""/>
+	</mission>
+</campaign>

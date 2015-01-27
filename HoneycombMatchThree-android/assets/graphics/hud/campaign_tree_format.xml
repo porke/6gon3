@@ -1,0 +1,22 @@
+<campaign_tree rows="9" columns="5">
+	<node row="5" col="1" id="1"/>
+	<node row="2" col="2" id="2"/>
+	<node row="5" col="2" id="3"/>
+	<node row="8" col="2" id="4"/>
+	<node row="1" col="3" id="5"/>
+	<node row="3" col="3" id="6"/>
+	<node row="4" col="3" id="7"/>
+	<node row="6" col="3" id="8"/>
+	<node row="7" col="3" id="9"/>
+	<node row="9" col="3" id="10"/>
+	<node row="1" col="4" id="11"/>
+	<node row="2" col="4" id="12"/>
+	<node row="3" col="4" id="13"/>
+	<node row="4" col="4" id="14"/>
+	<node row="5" col="4" id="15"/>
+	<node row="6" col="4" id="16"/>
+	<node row="7" col="4" id="17"/>
+	<node row="8" col="4" id="18"/>
+	<node row="9" col="4" id="19"/>
+	<node row="5" col="5" id="20"/>
+</campaign_tree>

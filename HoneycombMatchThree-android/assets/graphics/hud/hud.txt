@@ -1,0 +1,9 @@
+btnR1 Button 408 10 64 64 RemoteSwap 20
+btnR2 Button 376 58 64 64 BombChange 20 
+btnR3 Button 408 106 64 64 ClearColour 20
+btnB1 Button 344 10 64 64 ColourChange 20
+btnB2 Button 312 58 64 64 DeleteLine 20
+btnB3 Button 344 106 64 64 Conversion 20
+btnG1 Button 280 10 64 64 RotateSwap 20
+btnG2 Button 248 58 64 64 IncomeBoost 20
+btnG3 Button 280 106 64 64 Fear 20

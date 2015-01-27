@@ -1,0 +1,455 @@
+{
+resources: {
+	com.badlogic.gdx.graphics.g2d.TextureRegion: {
+		check-off: { width: 14, height: 14, x: 1, y: 59 },
+		check-on: { width: 14, height: 14, x: 1, y: 44 },
+		selection: { width: 1, height: 1, x: 29, y: 80 },
+		default-slider-knob: { width: 9, height: 26, x: 268, y: 485 },		
+		options-normal: { width: 62, height: 64, x: 193, y: 0 },
+		options-pushed: { width: 62, height: 64, x: 193, y: 65 },
+		exit-normal: { width: 64, height: 64, x: 194, y: 195 },
+		exit-pushed: { width: 64, height: 64, x: 194, y: 130 },
+		return-normal: { width: 62, height: 64, x: 257, y: 0 },
+		return-pushed: { width: 62, height: 64, x: 257, y: 65 },
+		play-normal: { width: 63, height: 64, x: 257, y: 193 },
+		play-pushed: { width: 63, height: 64, x: 257, y: 128 },
+		highscore-normal: { width: 63, height: 63, x: 321, y: 65},
+		highscore-pushed: { width: 63, height: 63, x: 321, y: 0},
+		help-normal: { width: 63, height: 63, x: 385, y: 65},
+		help-pushed: { width: 63, height: 63, x: 385, y: 0},
+		reset-normal: { width: 63, height: 64, x: 321, y: 193 },
+		reset-pushed: { width: 63, height: 64, x: 321, y: 128 },
+		rate-normal: { width: 64, height: 64, x: 404, y: 328 },
+		swarm-logo: {width: 81, height: 80, x: 175, y: 0}
+	},
+	com.badlogic.gdx.graphics.g2d.NinePatch: {
+		
+		default-select-selection: [
+			{ width: 1, height: 1, x: 7, y: 118 },
+			{ width: 1, height: 1, x: 8, y: 118 },
+			{ width: 1, height: 1, x: 9, y: 118 },
+			{ width: 1, height: 1, x: 7, y: 119 },
+			{ width: 1, height: 1, x: 8, y: 119 },
+			{ width: 1, height: 1, x: 9, y: 119 },
+			{ width: 1, height: 1, x: 7, y: 120 },
+			{ width: 1, height: 1, x: 8, y: 120 },
+			{ width: 1, height: 1, x: 9, y: 120 }
+		],
+		default-round: [
+			{ width: 36, height: 30, x: 1, y: 386 },
+			{ width: 63, height: 30, x: 37, y: 386 },
+			{ width: 33, height: 30, x: 100, y: 386 },
+			{ width: 36, height: 0, x: 1, y: 416 },
+			{ width: 63, height: 0, x: 37, y: 416 },
+			{ width: 33, height: 0, x: 100, y: 416 },
+			{ width: 36, height: 32, x: 1, y: 416 },
+			{ width: 63, height: 32, x: 37, y: 416 },
+			{ width: 33, height: 32, x: 100, y: 416 }
+		],
+		default-pane-noborder: [
+			{ width: 0, height: 0, x: 29, y: 77 },
+			{ width: 1, height: 0, x: 29, y: 77 },
+			{ width: 0, height: 0, x: 30, y: 77 },
+			{ width: 0, height: 1, x: 29, y: 77 },
+			{ width: 1, height: 1, x: 29, y: 77 },
+			{ width: 0, height: 1, x: 30, y: 77 },
+			{ width: 0, height: 0, x: 29, y: 78 },
+			{ width: 1, height: 0, x: 29, y: 78 },
+			{ width: 0, height: 0, x: 30, y: 78 }
+		],
+		default-rect-pad: [
+			{ width: 1, height: 1, x: 25, y: 107 },
+			{ width: 3, height: 1, x: 26, y: 107 },
+			{ width: 1, height: 1, x: 29, y: 107 },
+			{ width: 1, height: 1, x: 25, y: 108 },
+			{ width: 3, height: 1, x: 26, y: 108 },
+			{ width: 1, height: 1, x: 29, y: 108 },
+			{ width: 1, height: 1, x: 25, y: 109 },
+			{ width: 3, height: 1, x: 26, y: 109 },
+			{ width: 1, height: 1, x: 29, y: 109 }
+		],
+		default-slider: [
+			{ width: 4,   height: 2,   x: 265,  y: 465 },
+			{ width: 225, height: 2,   x: 269,  y: 465 },
+			{ width: 4,   height: 2,   x: 494,  y: 465 },
+			{ width: 4,   height: 13,  x: 265,  y: 467 },
+			{ width: 225, height: 13,  x: 269,  y: 467 },
+			{ width: 4,   height: 13,  x: 494,  y: 467 },
+			{ width: 4,   height: 4,   x: 265,  y: 480 },
+			{ width: 225, height: 4,   x: 269,  y: 480 },
+			{ width: 4,   height: 4,   x: 494,  y: 480 }
+		],
+		default-rect: [
+			{ width: 1, height: 1, x: 2, y: 120 },
+			{ width: 1, height: 1, x: 3, y: 120 },
+			{ width: 1, height: 1, x: 4, y: 120 },
+			{ width: 1, height: 1, x: 2, y: 121 },
+			{ width: 1, height: 1, x: 3, y: 121 },
+			{ width: 1, height: 1, x: 4, y: 121 },
+			{ width: 1, height: 1, x: 2, y: 122 },
+			{ width: 1, height: 1, x: 3, y: 122 },
+			{ width: 1, height: 1, x: 4, y: 122 }
+		],
+		default-splitpane-vertical: [
+			{ width: 0, height: 0, x: 2, y: 113 },
+			{ width: 3, height: 0, x: 2, y: 113 },
+			{ width: 0, height: 0, x: 5, y: 113 },
+			{ width: 0, height: 0, x: 2, y: 113 },
+			{ width: 3, height: 0, x: 2, y: 113 },
+			{ width: 0, height: 0, x: 5, y: 113 },
+			{ width: 0, height: 5, x: 2, y: 113 },
+			{ width: 3, height: 5, x: 2, y: 113 },
+			{ width: 0, height: 5, x: 5, y: 113 }
+		],
+		default-select: [
+			{ width: 4, height: 4, x: 2, y: 33 },
+			{ width: 9, height: 4, x: 6, y: 33 },
+			{ width: 14, height: 4, x: 15, y: 33 },
+			{ width: 4, height: 12, x: 2, y: 37 },
+			{ width: 9, height: 12, x: 6, y: 37 },
+			{ width: 14, height: 12, x: 15, y: 37 },
+			{ width: 4, height: 4, x: 2, y: 49 },
+			{ width: 9, height: 4, x: 6, y: 49 },
+			{ width: 14, height: 4, x: 15, y: 49 }
+		],
+		default-pane: [
+			{ width: 1, height: 1, x: 25, y: 107 },
+			{ width: 3, height: 1, x: 26, y: 107 },
+			{ width: 1, height: 1, x: 29, y: 107 },
+			{ width: 1, height: 1, x: 25, y: 108 },
+			{ width: 3, height: 1, x: 26, y: 108 },
+			{ width: 1, height: 1, x: 29, y: 108 },
+			{ width: 1, height: 1, x: 25, y: 109 },
+			{ width: 3, height: 1, x: 26, y: 109 },
+			{ width: 1, height: 1, x: 29, y: 109 }
+		],
+		default-round-down: [
+			{ width: 36, height: 30, x: 1, y: 449 },
+			{ width: 63, height: 30, x: 37, y: 449 },
+			{ width: 33, height: 30, x: 100, y: 449 },
+			{ width: 36, height: 0, x: 1, y: 479 },
+			{ width: 63, height: 0, x: 37, y: 479 },
+			{ width: 33, height: 0, x: 100, y: 479 },
+			{ width: 36, height: 32, x: 1, y: 479 },
+			{ width: 63, height: 32, x: 37, y: 479 },
+			{ width: 33, height: 32, x: 100, y: 479 }
+		],
+		cursor: [
+			{ width: 1, height: 1, x: 7, y: 123 },
+			{ width: 1, height: 1, x: 8, y: 123 },
+			{ width: 1, height: 1, x: 9, y: 123 },
+			{ width: 1, height: 1, x: 7, y: 124 },
+			{ width: 1, height: 1, x: 8, y: 124 },
+			{ width: 1, height: 1, x: 9, y: 124 },
+			{ width: 1, height: 1, x: 7, y: 125 },
+			{ width: 1, height: 1, x: 8, y: 125 },
+			{ width: 1, height: 1, x: 9, y: 125 }
+		],
+		textfield: [
+			{ width: 3, height: 3, x: 2, y: 97 },
+			{ width: 8, height: 3, x: 5, y: 97 },
+			{ width: 3, height: 3, x: 13, y: 97 },
+			{ width: 3, height: 8, x: 2, y: 100 },
+			{ width: 8, height: 8, x: 5, y: 100 },
+			{ width: 3, height: 8, x: 13, y: 100 },
+			{ width: 3, height: 3, x: 2, y: 108 },
+			{ width: 8, height: 3, x: 5, y: 108 },
+			{ width: 3, height: 3, x: 13, y: 108 }
+		],
+		default-window: [
+			{ width: 11, height: 4, x: 398, y: 129 },
+			{ width: 43, height: 4, x: 409, y: 129 },
+			{ width: 10, height: 4, x: 452, y: 129 },
+			{ width: 11, height: 50, x: 398, y: 133 },
+			{ width: 43, height: 50, x: 409, y: 133 },
+			{ width: 10, height: 50, x: 452, y: 133 },
+			{ width: 11, height: 13, x: 398, y: 183 },
+			{ width: 43, height: 13, x: 409, y: 183 },
+			{ width: 10, height: 13, x: 452, y: 183 }		
+		],
+		default-splitpane: [
+			{ width: 0, height: 0, x: 18, y: 107 },
+			{ width: 0, height: 0, x: 18, y: 107 },
+			{ width: 5, height: 0, x: 18, y: 107 },
+			{ width: 0, height: 3, x: 18, y: 107 },
+			{ width: 0, height: 3, x: 18, y: 107 },
+			{ width: 5, height: 3, x: 18, y: 107 },
+			{ width: 0, height: 0, x: 18, y: 110 },
+			{ width: 0, height: 0, x: 18, y: 110 },
+			{ width: 5, height: 0, x: 18, y: 110 }
+		],
+		default-rect-down: [
+			{ width: 1, height: 1, x: 7, y: 113 },
+			{ width: 1, height: 1, x: 8, y: 113 },
+			{ width: 1, height: 1, x: 9, y: 113 },
+			{ width: 1, height: 1, x: 7, y: 114 },
+			{ width: 1, height: 1, x: 8, y: 114 },
+			{ width: 1, height: 1, x: 9, y: 114 },
+			{ width: 1, height: 1, x: 7, y: 115 },
+			{ width: 1, height: 1, x: 8, y: 115 },
+			{ width: 1, height: 1, x: 9, y: 115 }
+		],		
+		NeutralCampaignBorder: [
+			{ width: 36, height: 30, x: 1, y: 449 },
+			{ width: 63, height: 30, x: 37, y: 449 },
+			{ width: 33, height: 30, x: 100, y: 449 },
+			{ width: 36, height: 0, x: 1, y: 479 },
+			{ width: 63, height: 0, x: 37, y: 479 },
+			{ width: 33, height: 0, x: 100, y: 479 },
+			{ width: 36, height: 32, x: 1, y: 479 },
+			{ width: 63, height: 32, x: 37, y: 479 },
+			{ width: 33, height: 32, x: 100, y: 479 }
+		],
+		NeutralCampaign: [
+			{ width: 36, height: 30, x: 1, y: 386 },
+			{ width: 63, height: 30, x: 37, y: 386 },
+			{ width: 33, height: 30, x: 100, y: 386 },
+			{ width: 36, height: 0, x: 1, y: 416 },
+			{ width: 63, height: 0, x: 37, y: 416 },
+			{ width: 33, height: 0, x: 100, y: 416 },
+			{ width: 36, height: 32, x: 1, y: 416 },
+			{ width: 63, height: 32, x: 37, y: 416 },
+			{ width: 33, height: 32, x: 100, y: 416 }
+		],
+		RedCampaignBorder: [
+			{ width: 36, height: 30, x: 1, y: 197 },
+			{ width: 63, height: 30, x: 37, y: 197 },
+			{ width: 33, height: 30, x: 100, y: 197 },
+			{ width: 36, height: 0, x: 1, y: 227 },
+			{ width: 63, height: 0, x: 37, y: 227 },
+			{ width: 33, height: 0, x: 100, y: 227 },
+			{ width: 36, height: 32, x: 1, y: 227 },
+			{ width: 63, height: 32, x: 37, y: 227 },
+			{ width: 33, height: 32, x: 100, y: 227 }
+		],
+		RedCampaign: [
+			{ width: 36, height: 30, x: 1, y: 133 },
+			{ width: 63, height: 30, x: 37, y: 133 },
+			{ width: 33, height: 30, x: 100, y: 133 },
+			{ width: 36, height: 0, x: 1, y: 163 },
+			{ width: 63, height: 0, x: 37, y: 163 },
+			{ width: 33, height: 0, x: 100, y: 163 },
+			{ width: 36, height: 32, x: 1, y: 163 },
+			{ width: 63, height: 32, x: 37, y: 163 },
+			{ width: 33, height: 32, x: 100, y: 163  }			
+		],
+		GreenCampaignBorder: [
+			{ width: 36, height: 30, x: 1, y: 323 },
+			{ width: 63, height: 30, x: 37, y: 323 },
+			{ width: 33, height: 30, x: 100, y: 323 },
+			{ width: 36, height: 0, x: 1, y: 353 },
+			{ width: 63, height: 0, x: 37, y: 353 },
+			{ width: 33, height: 0, x: 100, y: 353 },
+			{ width: 36, height: 32, x: 1, y: 353 },
+			{ width: 63, height: 32, x: 37, y: 353 },
+			{ width: 33, height: 32, x: 100, y: 353 }
+		],
+		GreenCampaign: [
+			{ width: 36, height: 30, x: 1, y: 260 },
+			{ width: 63, height: 30, x: 37, y: 260 },
+			{ width: 33, height: 30, x: 100, y: 260 },
+			{ width: 36, height: 0, x: 1, y: 290 },
+			{ width: 63, height: 0, x: 37, y: 290 },
+			{ width: 33, height: 0, x: 100, y: 290 },
+			{ width: 36, height: 32, x: 1, y: 290 },
+			{ width: 63, height: 32, x: 37, y: 290 },
+			{ width: 33, height: 32, x: 100, y: 290 }
+		],
+		BlueCampaignBorder: [
+			{ width: 36, height: 30, x: 133, y: 449 },
+			{ width: 63, height: 30, x: 168, y: 449 },
+			{ width: 33, height: 30, x: 231, y: 449 },
+			{ width: 36, height: 0, x: 133, y: 479 },
+			{ width: 63, height: 0, x: 168, y: 479 },
+			{ width: 33, height: 0, x: 231, y: 479 },
+			{ width: 36, height: 32, x: 133, y: 479 },
+			{ width: 63, height: 32, x: 168, y: 479 },
+			{ width: 33, height: 32, x: 231, y: 479 }
+		],
+		BlueCampaign: [
+			{ width: 36, height: 30, x: 133, y: 386 },
+			{ width: 63, height: 30, x: 168, y: 386 },
+			{ width: 33, height: 30, x: 231, y: 386 },
+			{ width: 36, height: 0, x: 133, y: 416 },
+			{ width: 63, height: 0, x: 168, y: 416 },
+			{ width: 33, height: 0, x: 231, y: 416 },
+			{ width: 36, height: 32, x: 133, y: 416 },
+			{ width: 63, height: 32, x: 168, y: 416 },
+			{ width: 33, height: 32, x: 231, y: 416 }
+		],
+		
+		BlueCampaign: [
+			{ width: 36, height: 30, x: 133, y: 386 },
+			{ width: 63, height: 30, x: 168, y: 386 },
+			{ width: 33, height: 30, x: 231, y: 386 },
+			{ width: 36, height: 0, x: 133, y: 416 },
+			{ width: 63, height: 0, x: 168, y: 416 },
+			{ width: 33, height: 0, x: 231, y: 416 },
+			{ width: 36, height: 32, x: 133, y: 416 },
+			{ width: 63, height: 32, x: 168, y: 416 },
+			{ width: 33, height: 32, x: 231, y: 416 }
+		],
+		
+		GreenCase: [
+			{ width: 11, height: 4, x: 192, y: 259 },
+			{ width: 43, height: 4, x: 203, y: 259 },
+			{ width: 10, height: 4, x: 246, y: 259 },
+			{ width: 11, height: 50, x: 192, y: 263 },
+			{ width: 43, height: 50, x: 203, y: 263 },
+			{ width: 10, height: 50, x: 246, y: 263 },
+			{ width: 11, height: 13, x: 192, y: 313 },
+			{ width: 43, height: 13, x: 203, y: 313 },
+			{ width: 10, height: 13, x: 246, y: 313 }
+		],
+		
+		RedCase: [
+			{ width: 11, height: 4, x: 260, y: 259 },
+			{ width: 43, height: 4, x: 271, y: 259 },
+			{ width: 10, height: 4, x: 314, y: 259 },
+			{ width: 11, height: 50, x: 260, y: 263 },
+			{ width: 43, height: 50, x: 271, y: 263 },
+			{ width: 10, height: 50, x: 314, y: 263 } ,
+			{ width: 11, height: 13, x: 260, y: 313 },
+			{ width: 43, height: 13, x: 271, y: 313 },
+			{ width: 10, height: 13, x: 314, y: 313 }
+		],
+		
+		YellowCase: [
+			{ width: 11, height: 4, x: 329, y: 259 },
+			{ width: 43, height: 4, x: 340, y: 259 },
+			{ width: 10, height: 4, x: 383, y: 259 },
+			{ width: 11, height: 50, x: 329, y: 263 },
+			{ width: 43, height: 50, x: 340, y: 263 },
+			{ width: 10, height: 50, x: 383, y: 263 },
+			{ width: 11, height: 13, x: 329, y: 313 },
+			{ width: 43, height: 13, x: 340, y: 313 },
+			{ width: 10, height: 13, x: 383, y: 313 }
+		],
+		
+		BlueCase: [
+			{ width: 11, height: 4, x: 398, y: 259 },
+			{ width: 43, height: 4, x: 409, y: 259 },
+			{ width: 10, height: 4, x: 452, y: 259 },
+			{ width: 11, height: 50, x: 398, y: 263 },
+			{ width: 43, height: 50, x: 409, y: 263 },
+			{ width: 10, height: 50, x: 452, y: 263 },
+			{ width: 11, height: 13, x: 398, y: 313 },
+			{ width: 43, height: 13, x: 409, y: 313 },
+			{ width: 10, height: 13, x: 452, y: 313 }
+		],
+		
+		MenuButton: [
+			{ width: 36, height: 60, x: 22, y: 1 },
+			{ width: 2,  height: 60, x: 58, y: 1 },
+			{ width: 36, height: 60, x: 60, y: 1 },
+			{ width: 36, height: 0, x: 22, y: 61 },
+			{ width: 2,  height: 0,  x: 58, y: 61 },
+			{ width: 36, height: 0, x: 60, y: 61 },
+			{ width: 36, height: 60, x: 22, y: 61 },
+			{ width: 2,  height: 60, x: 58, y: 61 },
+			{ width: 36, height: 60, x: 60, y: 61 }
+		],
+		
+		MenuButtonDown : [
+			{ width: 36, height: 60, x: 96, y: 1 },
+			{ width: 2,  height: 60, x: 133, y: 1 },
+			{ width: 36, height: 60, x: 135, y: 1 },
+			{ width: 36, height: 0, x: 96, y: 61 },
+			{ width: 2,  height: 0,  x: 133, y: 61 },
+			{ width: 36, height: 0, x: 135, y: 61 },
+			{ width: 36, height: 60, x: 96, y: 61 },
+			{ width: 2,  height: 60, x: 133, y: 61 },
+			{ width: 36, height: 60, x: 135, y: 61 }
+		],
+		
+		transparent: {
+			region: { height: 1, width: 1, x: 0, y: 0 },
+			color: { r:0, g:0, b:0, a:0 }
+		},
+		shadow: {
+			region: { height: 1, width: 1, x: 0, y: 0 },
+			color: { r:0, g:0, b:0, a:0.5 }
+		},
+		light-shadow: {
+			region: { height: 1, width: 1, x: 0, y: 0 },
+			color: { r:0.5, g:0.5, b:0.5, a:0.5 }
+		},
+		dark-shadow: {
+			region: { height: 1, width: 1, x: 0, y: 0 },
+			color: { r:0.0, g:0.0, b:0.0, a:0.75 }
+		}
+	},
+	com.badlogic.gdx.graphics.g2d.BitmapFont: { 
+		default-font: { file: DefaultFont.fnt }, 
+		menu-font: { file: MenuFont.fnt }
+	},
+	com.badlogic.gdx.graphics.Color: {
+		green: { a: 1, b: 0, g: 1, r: 0 },
+		white: { a: 1, b: 1, g: 1, r: 1 },
+		red: { a: 1, b: 0, g: 0, r: 1 },
+		black: { a: 1, b: 0, g: 0, r: 0 },
+		teal: {a: 1, b: 0.35, g: 0.24, r: 0}
+	}
+},
+styles: {
+	com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+		default: { down: default-round-down, up: default-round },
+		toggle: { down: default-round-down, checked: default-round-down, up: default-round }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {	
+		default: { down: default-round-down, up: default-round, font: default-font, fontColor: white },
+		toggle: { down: default-round-down, up: default-round, checked: default-round-down, font: default-font, fontColor: white, downFontColor: red },		
+		red_campaign_border: { down: RedCampaignBorder, up: RedCampaignBorder, font: default-font, fontColor: white },
+		blue_campaign_border: { down: BlueCampaignBorder, up: BlueCampaignBorder, font: default-font, fontColor: white },
+		green_campaign_border: { down: GreenCampaignBorder, up: GreenCampaignBorder, font: default-font, fontColor: white },
+		white_campaign_border: { down: NeutralCampaignBorder, up: NeutralCampaignBorder, font: default-font, fontColor: white },
+		red_campaign: { down: RedCampaignBorder, up: RedCampaign, font: default-font, fontColor: white },		
+		blue_campaign: { down: BlueCampaignBorder, up: BlueCampaign, font: default-font, fontColor: white },		
+		green_campaign: { down: GreenCampaignBorder, up: GreenCampaign, font: default-font, fontColor: white },		
+		white_campaign: { down: NeutralCampaignBorder, up: NeutralCampaign, font: default-font, fontColor: white },
+		menu_button: { down: MenuButtonDown, up: MenuButton, font: menu-font, fontColor: teal }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+		default: { down: default-round-down, up: default-round },
+		toggle: { down: default-round-down, up: default-round, checked: default-round-down },
+		exit-button: {regionDown: exit-pushed, regionUp: exit-normal},
+		options-button: {regionDown: options-pushed, regionUp: options-normal},
+		return-button: {regionDown: return-pushed, regionUp: return-normal},
+		play-button: {regionDown: play-pushed, regionUp: play-normal},
+		highscore-button: {regionDown: highscore-pushed, regionUp: highscore-normal},
+		help-button: {regionDown: help-pushed, regionUp: help-normal},
+		reset-button: {regionDown: reset-pushed, regionUp: reset-normal},
+		rate-button: {regionDown: rate-normal, regionUp: rate-normal},
+		swarm-button: {regionDown: swarm-logo, regionUp: swarm-logo}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+		default: { listBackground: default-rect, listSelection: default-select-selection, font: default-font, fontColor: white, background: default-select }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+		default-vertical: { handle: default-splitpane-vertical },
+		default-horizontal: { handle: default-splitpane }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+		default: { vScroll: default-slider, hScrollKnob: default-round, background: default-rect, hScroll: default-slider, vScrollKnob: default-round }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+		default: { titleFont: default-font, background: default-window, titleFontColor: white }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+		default: { slider: default-slider, knob: default-slider-knob }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: { font: default-font, fontColor: white },
+		menu-label: { font: menu-font, fontColor: teal }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+		default: { selection: selection, background: textfield, font: default-font, fontColor: white, cursor: cursor }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+		default: { checkboxOn: check-on, checkboxOff: check-off, font: default-font, fontColor: white }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+		default: { fontColorUnselected: white, selectedPatch: light-shadow, fontColorSelected: white, font: default-font }
+	}
+}
+}

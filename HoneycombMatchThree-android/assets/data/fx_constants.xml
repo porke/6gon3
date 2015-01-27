@@ -1,0 +1,14 @@
+<settings>
+	<setting name="BlockEventDestroyGhost.InterpolationFactor" type="java.lang.Float" value="1.5"/>
+	<setting name="BlockEventDestroyBomb.Duration" type="java.lang.Float" value="1"/>
+	<setting name="BlockEventChangeStrength.Duration" type="java.lang.Float" value="0.75"/>
+	<setting name="BlockEventDestroyStandard.InterpolationFactor" type="java.lang.Float" value="1.5"/>
+	<setting name="BlockEventDestroyGhost.Duration" type="java.lang.Float" value="0.5"/>
+	<setting name="BlockEventDestroyLine.Duration" type="java.lang.Float" value="2.0"/>
+	<setting name="BlockEventDestroyColor.Duration" type="java.lang.Float" value="1.0"/>
+	<setting name="BlockEventChangePosition.MvtTime" type="java.lang.Float" value="0.2"/>
+	<setting name="BlockEventChangePosition.InterpolationFactor" type="java.lang.Float" value="1.7"/>
+	<setting name="BlockEventChangeColour.InterpolationFactor" type="java.lang.Float" value="1.5"/>
+	<setting name="BlockEventDestroyStandard.Duration" type="java.lang.Float" value="0.5"/>
+	<setting name="BlockEventLinkGhost.FrameDuration" type="java.lang.Float" value="0.0625"/>
+</settings>
