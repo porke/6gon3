@@ -13,8 +13,11 @@ As of 23-01-2013 available on [GooglePlay](https://play.google.com/store/apps/de
 
 ## Screenshots
 
-![Line destruction](https://dl.dropboxusercontent.com/u/362823/GitHub/HM3/line_clear.jpg)
-![Campaign screen](https://dl.dropboxusercontent.com/u/362823/GitHub/HM3/campaign.jpg)
-![Block shatter](https://dl.dropboxusercontent.com/u/362823/GitHub/HM3/strong_break.jpg)
+![Line destruction](https://github.com/porke/HoneycombMatchThree/blob/master/images/HoneycombMatchThree_line_clear.jpg)
 
+
+![Campaign screen](https://github.com/porke/HoneycombMatchThree/blob/master/images/HoneycombMatchThree_campaign.jpg)
+
+
+![Block shatter](https://github.com/porke/HoneycombMatchThree/blob/master/images/HoneycombMatchThree_strong_break.jpg)
 
