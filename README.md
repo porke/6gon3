@@ -1,5 +1,5 @@
 # Honeycomb Match 3
-A classic match three game in a hexagonal environment and a few additional flavors!
+A classic match three game in a hexagonal environment and a few additional, delicious flavors!
 
 A brief summary of the features:
 * 20 missions of campaign with unlockable special moves and game modes
